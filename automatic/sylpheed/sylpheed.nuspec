@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sylpheed</id>
-    <version>3.6</version>
+    <version>3.6.0</version>
     <packageSourceUrl>https://github.com/Akipe/chocolatey-manual/tree/master/sylpheed</packageSourceUrl>
     <owners>Akipe</owners>
     <title>sylpheed (Install)</title>

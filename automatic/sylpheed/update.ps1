@@ -1,7 +1,6 @@
 import-module au
 
 # ToDo :
-#   - display version with 3 numbers all the time (example : v3.6 -> 3.6.0)
 #   - get latest changelog from https://sylpheed.sraoss.jp/en/news.html
 #   - change projectSourceUrl when update (example for v3.6.0 : https://sylpheeectSourcd.sraoss.jp/sylpheed/v3.6/sylpheed-3.6.0.tar.bz2)
 function global:au_SearchReplace {
@@ -22,6 +21,12 @@ function global:au_GetLatest {
     $setup_name     = $page_source.Links | ? href -match $regex | Select-Object -First 1 -expand href
 
     $version        = $setup_name -split '-|_|.exe' | Select-Object -Last 1 -Skip 2
+    if ($version.Split(".").Length -eq 2) {
+        $version += '.0'
+    } elseif ($version.Split(".").Length -eq 1) {
+        $version += '0.0'
+    }
+
     $url            = $url_ftp + $setup_name
     $ChecksumType   = 'sha256'
 
