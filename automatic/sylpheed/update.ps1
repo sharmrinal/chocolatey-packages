@@ -1,7 +1,6 @@
 import-module au
 
 # ToDo :
-#   - get latest changelog from https://sylpheed.sraoss.jp/en/news.html
 #   - change projectSourceUrl when update (example for v3.6.0 : https://sylpheeectSourcd.sraoss.jp/sylpheed/v3.6/sylpheed-3.6.0.tar.bz2)
 function global:au_SearchReplace {
     @{
