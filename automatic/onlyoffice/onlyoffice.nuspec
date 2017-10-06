@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>onlyoffice</id>
+    <version>4.4.1</version>
+    <packageSourceUrl>https://github.com/Akipe/chocolatey-manual/tree/master/sylpheed</packageSourceUrl>
+    <owners>dimqua Akipe</owners>
+    <title>ONLYOFFICE</title>
+    <authors>Ascensio System SIA</authors>
+    <projectUrl>https://www.onlyoffice.com/</projectUrl>
+    <iconUrl>!TODO!</iconUrl>
+    <licenseUrl>https://github.com/ONLYOFFICE/DesktopEditors/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>!TODO!</packageSourceUrl>
+    <docsUrl>https://helpcenter.onlyoffice.com/desktop/documents/index.aspx</docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl>https://github.com/ONLYOFFICE/DesktopEditors/issues</bugTrackerUrl>
+    <summary>ONLYOFFICE Desktop Editors is a free office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents stored on your Windows/Linux PC or Mac without an Internet connection. It is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx.</summary>
+    <description>ONLYOFFICE is a project developed by experienced IT experts from Ascensio System SIA, leading IT company with headquarters in Riga, Latvia. Originally ONLYOFFICE was designed for internal team collaboration. An attempt to introduce it to a wider audience proved to be successful: ONLYOFFICE received very positive feedback from the Internet community. As a result, its functionality was considerably revised and expanded that brought about a high and stable growth of users from different countries.
+    
+    ![screenshot](!TODO!)
+    </description>
+    <releaseNotes>https://github.com/ONLYOFFICE/DesktopEditors/releases/latest</releaseNotes>
+    <tags>admin onlyoffice office suite open-source</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
