@@ -26,6 +26,8 @@ function global:au_GetLatest {
         $version += '0.0'
     }
 
+    $version_2_number = $version.Split(".")
+
     $url            = $url_ftp + $setup_name
     $ChecksumType   = 'sha256'
 
@@ -33,9 +35,10 @@ function global:au_GetLatest {
         Version         = $version;
         URL32           = $url;
         ChecksumType32  = $ChecksumType;
+        LinkSource      = $linkSource;
     }
 
     return $Latest
 }
 
-update -NoCheckUrl -ChecksumFor 32 -NoCheckChocoVersion
+update -NoCheckUrl -ChecksumFor 32

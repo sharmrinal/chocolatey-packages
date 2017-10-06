@@ -6,7 +6,7 @@ $url          = 'https://sylpheed.sraoss.jp/sylpheed/win32/Sylpheed-3.6_setup.ex
 $softwareName = 'sylpheed*'
 $checksum     = 'ded69a550a2b961a3ac11c94a59f762cfe224f823fc5a944328b4add58ec1520'
 $checksumType = 'sha256'
-$silentArgs   = "/S"
+$silentArgs   = '/S'
 
 $packageArgs = @{
   packageName   = $packageName
