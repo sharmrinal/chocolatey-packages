@@ -3,7 +3,7 @@
   <metadata>
     <id>sylpheed.portable</id>
     <version>3.6.0</version>
-    <packageSourceUrl>!TODO!</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/sylpheed.portable</packageSourceUrl>
     <owners>Akipe</owners>
     <title>Sylpheed (Portable)</title>
     <authors>Hiroyuki Yamamoto</authors>
