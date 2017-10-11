@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>onlyoffice</id>
-    <version>4.4.1</version>
+    <version>4.4.1.20171011</version>
     <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/onlyoffice</packageSourceUrl>
     <owners>dimqua Akipe</owners>
-    <title>ONLYOFFICE</title>
+    <title>ONLYOFFICE (Install)</title>
     <authors>Ascensio System SIA</authors>
     <projectUrl>https://www.onlyoffice.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/d902e27e/icons/onlyoffice/onlyoffice.png</iconUrl>
@@ -16,7 +16,7 @@
     <summary>ONLYOFFICE Desktop Editors is a free office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents stored on your Windows/Linux PC or Mac without an Internet connection. It is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx.</summary>
     <description>ONLYOFFICE is a project developed by experienced IT experts from Ascensio System SIA, leading IT company with headquarters in Riga, Latvia. Originally ONLYOFFICE was designed for internal team collaboration. An attempt to introduce it to a wider audience proved to be successful: ONLYOFFICE received very positive feedback from the Internet community. As a result, its functionality was considerably revised and expanded that brought about a high and stable growth of users from different countries.
     
-    ![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/d902e27e/icons/onlyoffice/onlyoffice-screenshot.png)
+    ![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/da4392e4/icons/onlyoffice/onlyoffice-screenshot.png)
     </description>
     <releaseNotes>https://github.com/ONLYOFFICE/DesktopEditors/releases/latest</releaseNotes>
     <tags>admin onlyoffice office suite open-source</tags>
