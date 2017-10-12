@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>adwcleaner</id>
+    <title>AdwCleaner</title>
+    <version>7.0.3.1</version>
+    <authors>Malwarebytes</authors>
+    <owners>dtgm Akipe</owners>
+    <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/adwcleaner/</packageSourceUrl>
+    <projectUrl>https://toolslib.net/downloads/viewdownload/1-adwcleaner/</projectUrl>
+    <docsUrl>https://toolslib.net/downloads/viewdownload/1-adwcleaner/pages/5-en-adwcleaner-documentation/</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/ddac375b/icons/adwcleaner/adwcleaner.png</iconUrl>
+    <bugTrackerUrl>https://toolslib.net/forum/viewcategory/1-adwcleaner/</bugTrackerUrl>
+    <tags>unattended malware-scanner malware-remover toolbar-remover malwarebytes</tags>
+    <copyright>© 2017 Malwarebytes</copyright>
+    <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Anti-Adware/Toolbar/PUP/Hijacker search and delete tool</summary>
+    <description>
+AdwCleaner is a free removal tool for:
+
+* Adware (ads softwares)
+* PUP/LPI (Potentially Undesirable Program)
+* Toolbars
+* Hijacker (Hijack of the browser's homepage)
+
+![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/ddac375b/icons/adwcleaner/adwcleaner-screenshot.png)
+	  </description>
+    <releaseNotes>
+https://toolslib.net/downloads/viewdownload/1-adwcleaner/history/
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
