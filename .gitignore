@@ -13,7 +13,6 @@
 *.new
 *.exist
 *-orig.*
-adwcleaner.exe
 Thumbs.db
 .DS_Store
 _ReSharper*
