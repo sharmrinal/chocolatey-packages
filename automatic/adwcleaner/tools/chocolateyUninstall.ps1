@@ -1,22 +1,24 @@
-$packageName  = 'adwcleaner'
-$toolsLocation= Get-ToolsLocation
-$directoryPath= $(Join-Path $toolsLocation $packageName);
+$packageName    = 'adwcleaner';
+$installDir     = Get-ToolsLocation;
+$appDirPath     = $(Join-Path $installDir $packageName);
 
-if (Test-Path $directoryPath) {
-    Write-Output "Removing application..."
-    Remove-Item -Path $directoryPath -Recurse -Force
+if (Test-Path $appDirPath) {
+    Write-Output "Removing the application...";
+    Remove-Item -Path $appDirPath -Recurse -Force;
 }
 
-$packageNameUppercase = 'AdwCleaner';
-$shortcutFilePath     = $($env:ProgramData, 'Microsoft\Windows\Start Menu\Programs', "$packageNameUppercase.lnk" -join "\");
+$packageNameCamelCase = 'AdwCleaner';
+$dirStartMenu         = $(Join-Path $env:ProgramData 'Microsoft\Windows\Start Menu\Programs');
+$shortcutPath         = $(Join-Path $dirStartMenu "$packageNameCamelCase.lnk");
 
-if (Test-Path $shortcutFilePath) {
-    Write-Output "Removing shortcut from start menu..."
-    Remove-Item -Path $shortcutFilePath -Force
+if (Test-Path $shortcutPath) {
+    Write-Output "Removing the shortcut from start menu...";
+    Remove-Item -Path $shortcutPath -Force;
 }
 
 $settingsDirPath = $(Join-Path $env:SystemDrive 'AdwCleaner');
+
 if (Test-Path $settingsDirPath) {
-    Write-Output "Removing settings and quarantine (C:/AdwCleaner)..."
-    Remove-Item -Path $settingsDirPath -Recurse -Force
+    Write-Output "Removing settings and the quarantine (often the directory C:/AdwCleaner)...";
+    Remove-Item -Path $settingsDirPath -Recurse -Force;
 }

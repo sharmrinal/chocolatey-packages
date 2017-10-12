@@ -26,9 +26,7 @@ AdwCleaner is a free removal tool for:
 
 ![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/ddac375b/icons/adwcleaner/adwcleaner-screenshot.png)
 	  </description>
-    <releaseNotes>
-https://toolslib.net/downloads/viewdownload/1-adwcleaner/history/
-    </releaseNotes>
+    <releaseNotes>https://toolslib.net/downloads/viewdownload/1-adwcleaner/history/</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
