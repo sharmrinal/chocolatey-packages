@@ -1,8 +1,6 @@
 # Chocolatey Packages
 
-[![](https://ci.appveyor.com/api/projects/status/github/Akipe/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/Akipe/chocolatey-packages)
-[Update status](https://gist.github.com/Akipe/00330331551bc3703af5c89a1d82bfeb)
-[Update status - Testing](https://gist.github.com/Akipe/00330331551bc3703af5c89a1d82bfeb)
+[![](https://ci.appveyor.com/api/projects/status/github/Akipe/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/Akipe/chocolatey-packages) - [Update status](https://gist.github.com/Akipe/00330331551bc3703af5c89a1d82bfeb)
 
 ## Chocolatey Packages Template
 
@@ -88,3 +86,7 @@ The way this source repository is designed, you can use both AU and Ketarin/Choc
 * In `Settings -> Global variables` the variable `nopush` is set to `--nopush`, which allows checksum calculations to occur and then a custom script will push the files.
 * In `Settings -> Global variables` the variable `cscript` is set to `2`, which means calculate checksums, rebuild, and push the packages. If you set this to `1` it will do everything except push the packages. Setting this to `1` is how you disable package pushing.
 * In `Settings -> Global variables` the variable `checksum` is set to `{checksum}`. Do not change this, this is how the post update script replaces the literal value `{checksum}`. The same goes for `checksumx64`, `packageGuid`, and `url64`.
+
+
+
+  -  [Update status - Testing](https://gist.github.com/Akipe/00330331551bc3703af5c89a1d82bfeb)
