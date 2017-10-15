@@ -35,7 +35,7 @@ function global:au_GetLatest {
         Version         = $version;
         URL32           = $url;
         ChecksumType32  = $ChecksumType;
-        LinkSource      = $linkSource;
+        #LinkSource      = $linkSource;
     }
 
     return $Latest
