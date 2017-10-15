@@ -89,4 +89,4 @@ The way this source repository is designed, you can use both AU and Ketarin/Choc
 
 
 
-  -  [Update status - Testing](https://gist.github.com/Akipe/00330331551bc3703af5c89a1d82bfeb)
+[Update status - Testing](https://gist.github.com/Akipe/5c12c659b0d6fdd6b67fd293647b75ab)
