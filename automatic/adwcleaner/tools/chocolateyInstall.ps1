@@ -5,12 +5,12 @@ $urlBeforeDownload  = 'https://toolslib.net/downloads/finish/1-adwcleaner/1199/'
 $installDir         = Get-ToolsLocation;
 $directoryPath      = $(Join-Path $installDir $packageName);
 $appInstallPath     = $(Join-Path $directoryPath "$packageName.exe");
-$checksum           = '52856ec13bcc140b72755fea95eb8966ed64ad03bf6d1c3d20e139e1829264a5';
+$checksum           = '';
 $checksumType       = 'sha256';
 
 Write-Output 'Loading the author web page for getting the tempory download link...';
 $regexDownloadLink        = '^https://download.toolslib.net/download/file/';
-$SourcePageBeforeDownload = Invoke-WebRequest -Uri $urlBeforeDownload;
+$SourcePageBeforeDownload = Invoke-WebRequest -Uri $urlBeforeDownload -UseBasicParsing;
 $htmlLink                 = $SourcePageBeforeDownload.Links | Where-Object href -match $regexDownloadLink;
 $url                      = $htmlLink.href;
 

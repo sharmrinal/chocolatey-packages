@@ -13,20 +13,20 @@ function global:au_GetLatest {
 
     $urlRepository  = 'https://toolslib.net/downloads/viewdownload/1-adwcleaner/files/?t=release';
     $regexAppsUrl   = '^/downloads/viewdownload/1-adwcleaner/files/\d+';
-    $repoPageSource = Invoke-WebRequest -Uri $urlRepository;
+    $repoPageSource = Invoke-WebRequest -Uri $urlRepository -UseBasicParsing;
     $allFilesLinks  = $repoPageSource.Links | Where-Object href -match $regexAppsUrl;
     $latestFileUrl  = $($allFilesLinks | Select-Object -First 1).href;
     $idLatestVersion= $latestFileUrl -split '/' | Where-Object {$_} | Select-Object -Last 1;
 
     $urlPageBeforeDownload      = "https://toolslib.net/downloads/finish/1-adwcleaner/$idLatestVersion/";
     $regexDownloadUrl           = '^https://download.toolslib.net/download/file/';
-    $sourceBeforeDownloadPage   = Invoke-WebRequest -Uri $urlPageBeforeDownload;
+    $sourceBeforeDownloadPage   = Invoke-WebRequest -Uri $urlPageBeforeDownload -UseBasicParsing;
     $allDownloadLinks           = $sourceBeforeDownloadPage.Links | Where-Object href -match $regexDownloadUrl;
     $latestDownloadUrl          = ($allDownloadLinks | Select-Object -First 1).href;
 
-    $titlePageWithVersion   = $sourceBeforeDownloadPage.ParsedHtml.getElementsByTagName("h1")[0].innerHTML;
-    $versionWithBrackets    = $titlePageWithVersion.Split(" ") | Where-Object {$_} | Select-Object -last 1;
-    $version                = $versionWithBrackets -replace '[()]','';
+    $appFile    = Invoke-WebRequest -URI $latestDownloadUrl -UseBasicParsing
+    $appFileName= $appFile.Headers.'Content-Disposition'.split('"') | Where-Object {$_} | Select-Object -Last 1
+    $version    = $appFileName -replace '.exe','' -split "_" | Select-Object -Last 1
 
     $ChecksumType = 'sha256';
 
