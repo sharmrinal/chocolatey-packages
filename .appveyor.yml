@@ -14,39 +14,39 @@ branches:
 environment:
   # Set au version to use or omit to use the latest. Specify branch name to use development version from Github
   au_version:
-  au_push: true
+  au_push: false
   # Force test: use 1 to test all, or N to split testing into N groups
   au_test_groups: 1
 
   # Github token to commit pushed packages to repository
-  github_user_repo: {github_user}/{repository}
+  github_user_repo: Akipe/chocolatey-packages
   github_api_key:
-    secure: YOUR_GITHUB_API_KEY_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: ljx6zJkawtyV0gPgBpDPg9GjKpqLWW5zt25G3i11sYFlpe63nM+rj+XgiqkWwUCn
 
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: YOUR_EMAIL_ACCOUNT_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: 1M1Y9C5Urz1OMcx6TlNYEw==
   mail_pass:
-    secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: DtzC8qi6DDDUb2C7iUu4bojTWQ5h1BlojHzvj2rOJ/A=
   mail_server: smtp.gmail.com
   mail_port: 587
   mail_enablessl: true
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
   # Optional, leave empty to create anonymous gist
-  gist_id:
+  gist_id: 00330331551bc3703af5c89a1d82bfeb
 
   # Force test: gist id for test results
-  gist_id_test:
+  gist_id_test: 5c12c659b0d6fdd6b67fd293647b75ab
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: YOUR_CHOCO_API_KEY_HERE_ENCRYPTED_STRING # https://ci.appveyor.com/tools/encrypt
+    secure: eVbvXx9e3YNmRGFacxBJolT/omw+GN6YuOvmDRreBskELarrxmo+6bzKTZwPVwd9
 
 init:
-- git config --global user.email "chocolatey@realdimensions.net"
-- git config --global user.name "Chocolatey"
+- git config --global user.email "pro.julien@milletre.fr"
+- git config --global user.name "Akipe"
 - git config --global core.safecrlf false
 
 install:
