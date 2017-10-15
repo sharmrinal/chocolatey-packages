@@ -5,7 +5,7 @@ $urlBeforeDownload  = 'https://toolslib.net/downloads/finish/1-adwcleaner/1199/'
 $installDir         = Get-ToolsLocation;
 $directoryPath      = $(Join-Path $installDir $packageName);
 $appInstallPath     = $(Join-Path $directoryPath "$packageName.exe");
-$checksum           = '';
+$checksum           = '52856ec13bcc140b72755fea95eb8966ed64ad03bf6d1c3d20e139e1829264a5';
 $checksumType       = 'sha256';
 
 Write-Output 'Loading the author web page for getting the tempory download link...';
