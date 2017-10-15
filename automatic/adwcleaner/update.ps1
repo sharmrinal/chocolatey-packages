@@ -43,6 +43,6 @@ function global:au_GetLatest {
 $backupEnvChocoInstallDir       = $env:ChocolateyToolsLocation;
 $env:ChocolateyToolsLocation    = $env:TEMP;
 
-update -NoCheckUrl -NoCheckChocoVersion;
+update -NoCheckUrl;
 
 $env:ChocolateyToolsLocation    = $backupEnvChocoInstallDir;
