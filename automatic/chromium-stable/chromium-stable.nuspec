@@ -17,7 +17,13 @@
     <projectSourceUrl>https://github.com/henrypp/chromium/</projectSourceUrl>
     <description>
 Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all Internet users to experience the web. This site contains design documents, architecture overviews, testing information, and more to help you learn to build and work with the Chromium source code.
-    
+
+## Note
+This is the stable version for Chromium, similar to stable channel of Chrome. This version is compiled by Nik from https://chromium.woolyss.com/ .
+
+- More informations about this build compilation : https://github.com/henrypp/chromium
+- More informations about stable version : https://chromium.woolyss.com/#stable-chromium-version
+
 ![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/7a306736/icons/chromium-stable/chromium-stable-screenshot.png)</description>
     <mailingListUrl>https://www.chromium.org/developers/discussion-groups</mailingListUrl>
     <bugTrackerUrl>https://github.com/henrypp/chromium/issues</bugTrackerUrl>
