@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>opentrack</id>
+    <title></title>
+    <version>2.3.9</version>
+    <authors></authors>
+    <owners>Akipe</owners>
+    <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/opentrack/</packageSourceUrl>
+    <projectUrl>https://github.com/opentrack/opentrack</projectUrl>
+    <iconUrl></iconUrl>
+    <tags>opentrack admin foss</tags>
+    <copyright>Copyright (c) 2013 The Chromium OS Author</copyright>
+    <licenseUrl>https://github.com/opentrack/opentrack/blob/unstable/OPENTRACK-LICENSING.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary></summary>
+    <projectSourceUrl>https://github.com/opentrack/opentrack</projectSourceUrl>
+    <description></description>
+    <bugTrackerUrl>https://github.com/opentrack/opentrack/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/opentrack/opentrack/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
