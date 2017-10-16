@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>opentrack</id>
-    <title></title>
+    <title>opentrack</title>
     <version>2.3.9</version>
-    <authors></authors>
+    <authors>Stanisław Halik and all contributors</authors>
     <owners>Akipe</owners>
     <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/opentrack/</packageSourceUrl>
     <projectUrl>https://github.com/opentrack/opentrack</projectUrl>
