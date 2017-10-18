@@ -9,7 +9,7 @@ if ($isAdminInstall) {
 $uninstallerFile = $uninstallCommand -split '"' | Where-Object {$_} | Select-Object -First 1;
 
 $packageArgs = @{
-    PackageName     = 'chromium-stable'
+    PackageName     = 'chromium'
     FileType        = 'exe'
     SilentArgs      = $silentArgs
     validExitCodes  = @(0,19,21)

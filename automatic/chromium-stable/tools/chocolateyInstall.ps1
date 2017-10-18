@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$packageName    = 'chromium-stable';
+$packageName    = 'chromium';
 $fileType       = 'exe';
 $url            = 'https://github.com/henrypp/chromium/releases/download/v62.0.3202.62-r499098-win32/chromium-sync.exe';
 $url64          = 'https://github.com/henrypp/chromium/releases/download/v62.0.3202.62-r499098-win64/chromium-sync.exe';
-$softwareName   = 'chromium-stable*';
+$softwareName   = 'chromium*';
 $checksum       = 'b79649e84b5efea76fbf6a72b9b03f2c2b69b6aff29317e6400505e65015b81c';
 $checksum64     = '2b4766a2c316d63a2c531097ba8b9144a945d5a465d29bbdc79ac60b76128416';
 $checksumTypeAll= 'sha256';
