@@ -14,15 +14,15 @@ function global:au_SearchReplace {
 
 function global:au_GetLatest {
 
-    $allVersions                = Invoke-WebRequest -Uri https://api.github.com/repos/henrypp/chromium/releases -UseBasicParsing | ConvertFrom-Json;
-    $allStableVersions          = $allVersions | Where-Object {$_.body -match "stable"}
-    $latestStableVersionNumber  = ($allStableVersions[0].tag_name.split('-') | Select-Object -First 1) -replace 'v','';
-    $allLatestStablesVersions   = $allVersions  | Where-Object {$_.tag_name -match $latestStableVersionNumber};
+    $allVersions                    = Invoke-WebRequest -Uri https://api.github.com/repos/henrypp/chromium/releases -UseBasicParsing | ConvertFrom-Json;
+    $allStableVersions              = $allVersions | Where-Object {$_.body -match "stable"}
+    $latestStableVersionNumber      = ($allStableVersions[0].tag_name.split('-') | Select-Object -First 1) -replace 'v','';
+    $anyArchLatestStablesVersions   = $allVersions  | Where-Object {$_.tag_name -match $latestStableVersionNumber};
     
-    $32LatestVersion        = $allLatestStablesVersions  | Where-Object {$_.tag_name -match $latestStableVersionNumber -and $_.tag_name -match "win32"};
+    $32LatestVersion        = $anyArchLatestStablesVersions | Where-Object {$_.tag_name -match $latestStableVersionNumber -and $_.tag_name -match "win32"};
     $32LatestSyncInstallUrl = ($32LatestVersion.assets | Where-Object name -match "-sync.exe").browser_download_url;
     
-    $64LatestVersion        = $allLatestStablesVersions  | Where-Object {$_.tag_name -match $latestStableVersionNumber -and $_.tag_name -match "win64"};
+    $64LatestVersion        = $anyArchLatestStablesVersions | Where-Object {$_.tag_name -match $latestStableVersionNumber -and $_.tag_name -match "win64"};
     $64LatestSyncInstallUrl = ($64LatestVersion.assets | Where-Object name -match "-sync.exe").browser_download_url;
 
     $ChecksumType = 'sha256';
