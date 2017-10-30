@@ -2,11 +2,11 @@
 
 $packageName    = 'chromium';
 $fileType       = 'exe';
-$url            = 'https://github.com/henrypp/chromium/releases/download/v62.0.3202.62-r499098-win32/chromium-sync.exe';
-$url64          = 'https://github.com/henrypp/chromium/releases/download/v62.0.3202.62-r499098-win64/chromium-sync.exe';
+$url            = 'https://github.com/henrypp/chromium/releases/download/v62.0.3202.75-r499098-win32/chromium-sync.exe';
+$url64          = 'https://github.com/henrypp/chromium/releases/download/v62.0.3202.75-r499098-win64/chromium-sync.exe';
 $softwareName   = 'chromium*';
-$checksum       = 'b79649e84b5efea76fbf6a72b9b03f2c2b69b6aff29317e6400505e65015b81c';
-$checksum64     = '2b4766a2c316d63a2c531097ba8b9144a945d5a465d29bbdc79ac60b76128416';
+$checksum       = 'c34e422cef9c664a0fcc04b1667e1cbbc7e6af6b5370e5e32b77e520ffcbd78c';
+$checksum64     = '0bad5323e3165463ebd5be42301f751dcfb460a9278a92560056af5f36e84e87';
 $checksumTypeAll= 'sha256';
 
 $registryPathChromiumAsUser = 'hkcu:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Chromium';
