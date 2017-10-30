@@ -23,7 +23,7 @@ This package corresponds to the complete bundle, which includes this languages :
 
 And it install GlassFish Server runtimes.
 
-![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/20dde5eb/icons/netbeans/netbeans-screenshot.png)</description>
+![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/92815e35/icons/netbeans/netbeans-screenshot.png)</description>
     <summary>An open source IDE that support different language and technologies.</summary>
     <releaseNotes>https://netbeans.org/community/releases/index.html</releaseNotes>
     <tags>netbeans java ide development admin</tags>
