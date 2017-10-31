@@ -22,11 +22,11 @@ Get-ChocolateyUnzip `
 
 Remove-Item $pathArchiveDownloaded
 
-Write-Output 'Get arch type...';
-$arch = Get-OSArchitectureWidth
+Write-Output 'Install the correct arch (x64 or x86)...';
+$arch       = Get-OSArchitectureWidth
+$force32bit = $env:ChocolateyForceX86
 
-Write-Output 'Keep the right binary...';
-if ($arch -eq '32') {
+if ($arch -eq '32' -or $force32bit -eq $true ) {
   Remove-Item "$toolsDir\*_x64.exe"
   $appPath = "$toolsDir\wumt_x86.exe"
 } else {
