@@ -16,12 +16,12 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $roadmapUrl   = 'https://netbeans.org/community/releases/roadmap.html'
-    $roadmapPage  = Invoke-WebRequest -Uri $roadmapUrl -UseBasicParsing
+    $versionUri = 'https://netbeans.org/downloads/start.html?platform=windows&lang=en&option=all'
+    $versionPage = Invoke-WebRequest -Uri $versionUri -UserAgent "Update checker of Chocolatey Community Package 'Netbeans'"
 
-    $link           = $roadmapPage.Links | Where-Object href -match '^/community/releases/\d+' | Select-Object -First 1
-    [regex]$regex   = '\d+(\.\d+)+'
-    $latestVersion  = $regex.Matches($link.outerHTML).value
+    [regex]$regex   = 'PAGE_ARTIFACTS_LOCATION\s*=\s*".*?/([\d.]+)/'
+    $versionPage.Content -match $regex | Out-Null
+    $latestVersion = $matches[1]
 
     $releasesUrl = "http://download.netbeans.org/netbeans/$latestVersion/final/bundles/netbeans-$latestVersion-windows.exe"
 
