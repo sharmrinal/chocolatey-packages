@@ -7,8 +7,8 @@
     <authors>"stupid user"</authors>
     <owners>Akipe</owners>
     <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/wumt/</packageSourceUrl>
-    <projectUrl>https://forum.ru-board.com/topic.cgi</projectUrl>
-    <docsUrl>https://forum.ru-board.com/topic.cgi</docsUrl>
+    <projectUrl>https://forum.ru-board.com/topic.cgi?forum=5&amp;topic=48142#2</projectUrl>
+    <docsUrl>https://forum.ru-board.com/topic.cgi?forum=5&amp;topic=48142#2</docsUrl>
     <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/ddac375b/icons/adwcleaner/wumt.png</iconUrl>
     <tags>windows update tool</tags>
     <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
@@ -31,7 +31,7 @@ It is compatible from Windows XP to Windows 10.
 
 ![screenshot]()
 	  </description>
-    <releaseNotes>https://forum.ru-board.com/topic.cgi</releaseNotes>
+    <releaseNotes>https://forum.ru-board.com/topic.cgi?forum=5&amp;topic=48142#2</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
