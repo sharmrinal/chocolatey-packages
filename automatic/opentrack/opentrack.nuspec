@@ -8,16 +8,41 @@
     <owners>Akipe</owners>
     <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/opentrack/</packageSourceUrl>
     <projectUrl>https://github.com/opentrack/opentrack</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/master/icons/opentrack/opentrack.png</iconUrl>
-    <tags>opentrack admin foss</tags>
-    <copyright></copyright>
+    <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/e71705ae/icons/opentrack/opentrack.png</iconUrl>
+    <tags>opentrack admin foss headtracking head freetrack trackir</tags>
+    <copyright>Almost all code is licensed under the ISC license. There are very few proprietary dependencies. There is no copyleft code. See individual files for licensing and authorship information.</copyright>
     <licenseUrl>https://github.com/opentrack/opentrack/blob/unstable/OPENTRACK-LICENSING.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary></summary>
+    <summary>Opentrack is a head tracking software for Windows, Linux, and macOS</summary>
     <projectSourceUrl>https://github.com/opentrack/opentrack</projectSourceUrl>
-    <description>
+    <description>Opentrack is an application dedicated to tracking user's head movements and relaying the information to games and flight simulation software.
+
+    You can use multiple tracking sources :
+    - PointTracker by Patrick Ruoff, freetrack-like light sources
+    - Oculus Rift DK1, DK2, CV, and legacy/knockoff versions
+    - Paper marker support via the ArUco library
+    - Razer Hydra
+    - Relaying via UDP from a different computer
+    - Relaying UDP via FreePIE-specific Android app
+    - Joystick analog axes
+    - Windows Phone tracker over opentrack UDP protocol
+    - Arduino with custom firmware
+    - Intel RealSense 3D cameras
+    - BBC micro:bit, LEGO, sensortag support via S2Bot
+
+    And it is compatible with multiple output system like TrackIR :
+    - SimConnect for newer Microsoft Flight Simulator
+    - freetrack implementation
+    - Relaying UDP to another computer
+    - Virtual joystick output
+    - Wine freetrack glue protocol
+    - X-Plane plugin
+    - Tablet-like mouse output
+    - FlightGear
+    - FSUIPC for Microsoft Flight Simulator 2002/2004
+    - SteamVR through a bridge 
     
-    ![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/develop/icons/opentrack/opentrack-screenshot.png)
+    ![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/e71705ae/icons/opentrack/opentrack-screenshot.png)
     </description>
     <bugTrackerUrl>https://github.com/opentrack/opentrack/issues</bugTrackerUrl>
     <releaseNotes>https://github.com/opentrack/opentrack/releases</releaseNotes>
