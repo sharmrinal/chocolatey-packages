@@ -4,7 +4,7 @@
     <id>wumt</id>
     <title>Windows Update MiniTool</title>
     <version>2016.12.20</version>
-    <authors>"stupid user"</authors>
+    <authors>stupid user (his nickname)</authors>
     <owners>Akipe</owners>
     <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/wumt/</packageSourceUrl>
     <projectUrl>https://forum.ru-board.com/topic.cgi?forum=5&amp;topic=48142#2</projectUrl>
