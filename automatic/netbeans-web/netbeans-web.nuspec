@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>netbeans-web</id>
-    <version>8.2</version>
+    <version>8.2.0.20171031</version>
     <title>NetBeans IDE (web)</title>
     <authors>Oracle Corporation</authors>
     <owners>Akipe ComFreek murray</owners>
