@@ -9,7 +9,7 @@
     <licenseUrl>https://netbeans.org/about/legal/product-licences.html</licenseUrl>
     <projectUrl>https://netbeans.org/</projectUrl>
     <projectSourceUrl>https://netbeans.org/community/sources/</projectSourceUrl>
-    <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/20dde5eb/icons/netbeans/netbeans.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/63ad65b9/icons/netbeans-c%2B%2B/netbeans-c%2B%2B.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>NetBeans is an integrated development environment for programming in Java and many other languages.
 

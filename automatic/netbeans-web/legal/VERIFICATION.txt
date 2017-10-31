@@ -8,6 +8,7 @@ Package can be verified like this:
 1. Go to
 
    x32: http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-windows.exe
+   x64: http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-windows.exe
 
    to download the installer.
 
@@ -16,9 +17,11 @@ Package can be verified like this:
    - Use Chocolatey utility 'checksum.exe'
 
    checksum32: C6DF4ACAFB3B8583EC76A643B5DF086583AD0BEC86072166BC94C65C8731D837
+   checksum64: C6DF4ACAFB3B8583EC76A643B5DF086583AD0BEC86072166BC94C65C8731D837
 
 Using AU:
 
-   Get-RemoteChecksum http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-windows.exe
+   x32 with AU: Get-RemoteChecksum http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-windows.exe
+   x64 with AU: Get-RemoteChecksum http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-windows.exe
 
 File 'LICENSE.txt' obtained from: https://netbeans.org/downloads/licence/8.2/nb82-LICENSE.txt

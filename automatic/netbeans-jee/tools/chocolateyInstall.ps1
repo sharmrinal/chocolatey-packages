@@ -4,14 +4,16 @@ $toolsDir = Split-Path $MyInvocation.MyCommand.Definition
 
 $packageName	= 'netbeans'
 $fileType		= 'exe'
-$filePath		= Get-Item $toolsDir\*.exe
+$file32Path		= Get-Item "$toolsDir\*_x32.exe"
+$file64Path		= Get-Item "$toolsDir\*_x64.exe"
 $softwareName	= 'NetBeans*'
 $silentArgs		= '--silent'
 
 $packageArgs = @{
 	PackageName    	= $packageName
 	FileType       	= $fileType
-	File           	= $filePath
+	File           	= $file32Path
+	File64			= $file64Path
 	SoftwareName	= $softwareName
 	SilentArgs		= $silentArgs
 	ValidExitCodes	= @(0)
