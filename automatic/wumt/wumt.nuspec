@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wumt</id>
+    <title>Windows Update MiniTool</title>
+    <version>2016.12.20</version>
+    <authors>"stupid user"</authors>
+    <owners>Akipe</owners>
+    <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/wumt/</packageSourceUrl>
+    <projectUrl>https://forum.ru-board.com/topic.cgi</projectUrl>
+    <docsUrl>https://forum.ru-board.com/topic.cgi</docsUrl>
+    <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/ddac375b/icons/adwcleaner/wumt.png</iconUrl>
+    <tags>windows update tool</tags>
+    <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Alternative to Windows Update</summary>
+    <description>
+Windows Update MiniTool (wumt) is an alternative to the Windows Update.
+
+The features are :
+- Checking for updates
+- Downloading updates
+- Installing updates
+- Deleting installed updates
+- Hiding unwanted updates
+- Getting direct links to * .cab / *. Exe / *. Psf / *. Esd update files
+- View update history
+- Configuring Automatic Updates
+
+It is compatible from Windows XP to Windows 10.
+
+![screenshot]()
+	  </description>
+    <releaseNotes>https://forum.ru-board.com/topic.cgi</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
