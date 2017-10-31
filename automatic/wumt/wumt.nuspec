@@ -9,7 +9,7 @@
     <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/wumt/</packageSourceUrl>
     <projectUrl>https://forum.ru-board.com/topic.cgi?forum=5&amp;topic=48142#2</projectUrl>
     <docsUrl>https://forum.ru-board.com/topic.cgi?forum=5&amp;topic=48142#2</docsUrl>
-    <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/ddac375b/icons/adwcleaner/wumt.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/6922681d/icons/wumt/wumt.png</iconUrl>
     <tags>windows update tool</tags>
     <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -29,7 +29,7 @@ The features are :
 
 It is compatible from Windows XP to Windows 10.
 
-![screenshot]()
+![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/6922681d/icons/wumt/wumt-screenshot.png)
 	  </description>
     <releaseNotes>https://forum.ru-board.com/topic.cgi?forum=5&amp;topic=48142#2</releaseNotes>
   </metadata>
