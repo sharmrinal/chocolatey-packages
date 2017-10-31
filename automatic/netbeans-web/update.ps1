@@ -7,7 +7,7 @@ function global:au_SearchReplace {
             "(?i)(checksum32:).*"                       = "`${1} $($Latest.Checksum32)"
             "(?i)(Get-RemoteChecksum).*"                = "`${1} $($Latest.URL32)"
             "(?i)(File 'LICENSE.txt' obtained from:).*" = "`${1} $($Latest.License)"
-        }
+        } #Todo
      };
 }
 
@@ -23,7 +23,8 @@ function global:au_GetLatest {
     $versionPage.Content -match $regex | Out-Null
     $latestVersion = $matches[1]
 
-    $releasesUrl = "http://download.netbeans.org/netbeans/$latestVersion/final/bundles/netbeans-$latestVersion-windows.exe"
+    $releases32Url = "http://download.netbeans.org/netbeans/$latestVersion/final/bundles/netbeans-$latestVersion-html-windows-x86.exe"
+    $releases64Url = "http://download.netbeans.org/netbeans/$latestVersion/final/bundles/netbeans-$latestVersion-html-windows-x64.exe"
 
     $latestVerionWithoutPoint = $latestVersion -replace '\.',''
 
@@ -33,7 +34,8 @@ function global:au_GetLatest {
 
     $Latest = @{
         Version = $latestVersion
-        URL32   = $releasesUrl
+        URL32   = $releases32Url
+        URL64   = $releases64Url
         License = $licenceUrl
     }
 
