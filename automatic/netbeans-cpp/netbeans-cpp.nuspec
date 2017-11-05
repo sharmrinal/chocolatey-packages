@@ -9,7 +9,7 @@
     <licenseUrl>https://netbeans.org/about/legal/product-licences.html</licenseUrl>
     <projectUrl>https://netbeans.org/</projectUrl>
     <projectSourceUrl>https://netbeans.org/community/sources/</projectSourceUrl>
-    <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/63ad65b9/icons/netbeans-web/netbeans-web.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/74da266b/icons/netbeans-cpp/netbeans-cpp.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>NetBeans is an integrated development environment for programming in Java and many other languages.
 
@@ -19,7 +19,7 @@ This package corresponds to C/C++ bundle.
     <summary>An open source IDE that support different language and technologies.</summary>
     <releaseNotes>https://netbeans.org/community/releases/index.html</releaseNotes>
     <tags>netbeans c c++ ide development admin</tags>
-    <packageSourceUrl>https://github.com/ComFreek/chocolatey-packages/tree/master/netbeans</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ComFreek/chocolatey-packages/tree/master/netbeans-cpp</packageSourceUrl>
     <mailingListUrl>https://netbeans.org/community/lists/</mailingListUrl>
     <bugTrackerUrl>https://netbeans.org/community/issues.html</bugTrackerUrl>
     <copyright>NetBeans IDE and NetBeans Platform are based on software from netbeans.org, which has been dual licensed under the Common Development and Distribution License (CDDL) and the GNU General Public License version 2 with Classpath exception. For more information, please visit www.netbeans.org.</copyright>

@@ -2,9 +2,9 @@
 
 $toolsDir = Split-Path $MyInvocation.MyCommand.Definition
 
-$packageName	= 'netbeans'
+$packageName	= 'netbeans-jse'
 $fileType		= 'exe'
-$filePath		= Get-Item $toolsDir\*.exe
+$filePath		= Get-Item "$toolsDir\*.exe"
 $softwareName	= 'NetBeans*'
 $silentArgs		= '--silent'
 

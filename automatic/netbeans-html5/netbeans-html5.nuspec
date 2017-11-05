@@ -13,7 +13,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>NetBeans is an integrated development environment for programming in Java and many other languages.
 
-This package corresponds to the HTML5 and Javascript bundle.
+This package corresponds to the HTML5 and Javascript bundle (it include PHP bundle too).
+
+This is a meta package to match the two bundles (PHP and HTML / JS) existing on the official website but which are identical.
 
 ![screenshot](https://cdn.rawgit.com/Akipe/chocolatey-packages/92815e35/icons/netbeans/netbeans-screenshot.png)</description>
     <summary>An open source IDE that support different language and technologies.</summary>

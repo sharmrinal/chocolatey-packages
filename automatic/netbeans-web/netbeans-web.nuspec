@@ -19,7 +19,7 @@ This package corresponds to HTML5/Javascript and PHP bundle, who have same insta
     <summary>An open source IDE that support different language and technologies.</summary>
     <releaseNotes>https://netbeans.org/community/releases/index.html</releaseNotes>
     <tags>netbeans java ide development admin</tags>
-    <packageSourceUrl>https://github.com/ComFreek/chocolatey-packages/tree/master/netbeans</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ComFreek/chocolatey-packages/tree/master/netbeans-web</packageSourceUrl>
     <mailingListUrl>https://netbeans.org/community/lists/</mailingListUrl>
     <bugTrackerUrl>https://netbeans.org/community/issues.html</bugTrackerUrl>
     <copyright>NetBeans IDE and NetBeans Platform are based on software from netbeans.org, which has been dual licensed under the Common Development and Distribution License (CDDL) and the GNU General Public License version 2 with Classpath exception. For more information, please visit www.netbeans.org.</copyright>

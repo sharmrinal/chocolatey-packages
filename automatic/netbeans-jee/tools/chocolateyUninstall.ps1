@@ -15,7 +15,7 @@ Uninstall-ChocolateyPackage -PackageName $packageName -FileType $fileType -Silen
 $regeditItem 		= 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\nbi-nb-base*'
 $UninstallProperty	= Get-ItemProperty -Path $regeditItem -Name 'UninstallString'
 
-$packageName  	= 'netbeans'
+$packageName  	= 'netbeans-jee'
 $fileType     	= 'EXE'
 $silentArgs   	= '--silent'
 $uninstallPath	= $UninstallProperty.UninstallString

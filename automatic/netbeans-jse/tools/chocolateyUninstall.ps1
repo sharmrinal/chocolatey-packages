@@ -4,7 +4,7 @@
 $regeditItem 		= 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\nbi-nb-base*'
 $UninstallProperty	= Get-ItemProperty -Path $regeditItem -Name 'UninstallString'
 
-$packageName  	= 'netbeans'
+$packageName  	= 'netbeans-jse'
 $fileType     	= 'EXE'
 $silentArgs   	= '--silent'
 $uninstallPath	= $UninstallProperty.UninstallString

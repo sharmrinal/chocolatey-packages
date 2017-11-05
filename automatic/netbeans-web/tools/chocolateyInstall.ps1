@@ -2,7 +2,7 @@
 
 $toolsDir = Split-Path $MyInvocation.MyCommand.Definition
 
-$packageName	= 'netbeans'
+$packageName	= 'netbeans-web'
 $fileType		= 'exe'
 $32filePath		= Get-Item "$toolsDir\*_x32.exe"
 $64filePath		= Get-Item "$toolsDir\*_x64.exe"
