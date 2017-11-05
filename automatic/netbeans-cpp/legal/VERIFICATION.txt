@@ -1,0 +1,27 @@
+VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Package can be verified like this:
+
+1. Go to
+
+   x32: http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-cpp-windows-x86.exe
+   x64: http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-cpp-windows-x64.exe
+
+   to download the installer.
+
+2. You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+
+   checksum32: 538424B2A96FD791FB8B0CA242D93DF033711C8F2A99CA7A268D1CECD2335199
+   checksum64: 4A6E333511A4C6DB313AED8A8F2E7203986B83913DFD7F891410A116B254CD6C
+
+Using AU:
+
+   x32 with AU: Get-RemoteChecksum  http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-cpp-windows-x86.exe
+   x64 with AU: Get-RemoteChecksum  http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-cpp-windows-x64.exe
+
+File 'LICENSE.txt' obtained from: https://netbeans.org/downloads/licence/8.2/nb82-LICENSE.txt
