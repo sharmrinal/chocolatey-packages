@@ -16,14 +16,14 @@ function global:au_BeforeUpdate {
 }
 
 function global:au_GetLatest {
-    $versionUri = 'https://netbeans.org/downloads/start.html?platform=windows&lang=en&option=all'
-    $versionPage = Invoke-WebRequest -Uri $versionUri -UserAgent "Update checker of Chocolatey Community Package 'Netbeans'"
+    $versionUri     = 'https://netbeans.org/downloads/start.html?platform=windows&lang=en&option=all'
+    $versionPage    = Invoke-WebRequest -Uri $versionUri -UserAgent "Update checker of Chocolatey Community Package 'Netbeans'"
 
     [regex]$regex   = 'PAGE_ARTIFACTS_LOCATION\s*=\s*".*?/([\d.]+)/'
     $versionPage.Content -match $regex | Out-Null
-    $latestVersion = $matches[1]
+    $latestVersion  = $matches[1]
 
-    $releasesUrl = "http://download.netbeans.org/netbeans/$latestVersion/final/bundles/netbeans-$latestVersion-windows.exe"
+    $releasesUrl    = "http://download.netbeans.org/netbeans/$latestVersion/final/bundles/netbeans-$latestVersion-windows.exe"
 
     $latestVerionWithoutPoint = $latestVersion -replace '\.',''
 
