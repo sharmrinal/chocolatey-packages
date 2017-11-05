@@ -24,9 +24,6 @@ This package corresponds to HTML5/Javascript and PHP bundle, who have same insta
     <bugTrackerUrl>https://netbeans.org/community/issues.html</bugTrackerUrl>
     <copyright>NetBeans IDE and NetBeans Platform are based on software from netbeans.org, which has been dual licensed under the Common Development and Distribution License (CDDL) and the GNU General Public License version 2 with Classpath exception. For more information, please visit www.netbeans.org.</copyright>
     <docsUrl>https://netbeans.org/kb/index.html</docsUrl>
-    <dependencies>
-      <dependency id="jdk8" version="8.0.152" />
-    </dependencies>
   </metadata>
   <files>
     <file src="legal\**" target="legal" />
