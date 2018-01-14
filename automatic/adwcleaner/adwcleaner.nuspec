@@ -3,7 +3,7 @@
   <metadata>
     <id>adwcleaner</id>
     <title>AdwCleaner</title>
-    <version>7.0.4.0</version>
+    <version>7.0.6.0</version>
     <authors>Malwarebytes</authors>
     <owners>dtgm Akipe</owners>
     <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/adwcleaner/</packageSourceUrl>
