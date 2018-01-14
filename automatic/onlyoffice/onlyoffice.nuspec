@@ -5,7 +5,7 @@
     <version>4.8.0</version>
     <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/onlyoffice</packageSourceUrl>
     <owners>dimqua Akipe</owners>
-    <title>ONLYOFFICE (Install)</title>
+    <title>ONLYOFFICE</title>
     <authors>Ascensio System SIA</authors>
     <projectUrl>https://www.onlyoffice.com/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/Akipe/chocolatey-packages/d902e27e/icons/onlyoffice/onlyoffice.png</iconUrl>
