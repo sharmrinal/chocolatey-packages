@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>xampp-7.2</id>
+    <title>XAMPP (7.2)</title>
+    <version>7.2.0</version>
+    <authors>TODO</authors>
+    <owners>Akipe</owners>
+    <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/xampp-7.2/</packageSourceUrl>
+    <projectUrl>https://www.apachefriends.org/index.html</projectUrl>
+    <iconUrl>TODO</iconUrl>
+    <tags>TODO</tags>
+    <copyright>GNU General Public Licence</copyright>
+    <licenseUrl>https://www.apachefriends.org/about.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>TODO</summary>
+    <projectSourceUrl>https://svn.code.sf.net/p/xampp/code/win32/xampp/</projectSourceUrl>
+    <description>
+      TODO
+    </description>
+    <bugTrackerUrl>https://community.apachefriends.org/f/index.php</bugTrackerUrl>
+    <releaseNotes>TODO https://www.apachefriends.org/blog.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
