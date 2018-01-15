@@ -17,7 +17,7 @@ function global:au_BeforeUpdate {
 
 function global:au_GetLatest {
     $versionUri = 'https://netbeans.org/downloads/start.html?platform=windows&lang=en&option=javaee'
-    $versionPage = Invoke-WebRequest -Uri $versionUri -UserAgent "Update checker of Chocolatey Community Package 'Netbeans'"
+    $versionPage = Invoke-WebRequest -Uri $versionUri -UserAgent "Update checker of Chocolatey Community Package 'Netbeans'" -UseBasicParsing
 
     [regex]$regex   = 'PAGE_ARTIFACTS_LOCATION\s*=\s*".*?/([\d.]+)/'
     $versionPage.Content -match $regex | Out-Null
