@@ -42,7 +42,7 @@ environment:
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: eVbvXx9e3YNmRGFacxBJolT/omw+GN6YuOvmDRreBskELarrxmo+6bzKTZwPVwd9
+    secure: qEzJqtU2xcGzZuwI7wxorriCPvCaEvXP5DEoJDurSGCBgE8gBSh5SYjJwxETCJVC
 
 init:
 - git config --global user.email "pro.julien@milletre.fr"
