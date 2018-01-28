@@ -3,7 +3,7 @@
   <metadata>
     <id>chromium-stable</id>
     <title>Chromium Stable</title>
-    <version>63.0.3239.132</version>
+    <version>64.0.3282.119</version>
     <authors>The Chromium Authors and Nik</authors>
     <owners>Akipe</owners>
     <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/chromium-stable/</packageSourceUrl>
