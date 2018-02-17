@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName  = 'sylpheed'
-$url          = 'https://sylpheed.sraoss.jp/sylpheed/win32/sylpheed-3.6-win32.zip'
+$url          = 'https://sylpheed.sraoss.jp/sylpheed/win32/sylpheed-3.7-win32.zip'
 $unzipLocation= $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-$checksum     = '429ea8c86303750d1ccc83967a12be13c8434beebbf492643acc53c80505dc03'
+$checksum     = 'b1061aacf7222927e95c291e6211a6ee2034db5d87aae584b0e4234a4513b84e'
 $checksumType = 'sha256'
 
 $packageArgs = @{

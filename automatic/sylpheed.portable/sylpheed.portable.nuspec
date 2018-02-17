@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>sylpheed.portable</id>
-    <version>3.6.0</version>
+    <version>3.7.0</version>
     <packageSourceUrl>https://github.com/Akipe/chocolatey-packages/tree/master/automatic/sylpheed.portable</packageSourceUrl>
     <owners>Akipe</owners>
     <title>Sylpheed (Portable)</title>
